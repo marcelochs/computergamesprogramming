@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a28250d88315ea49b0b8b854c2492d3, type: 3}
+  m_Name: Splash
+  m_EditorClassIdentifier: 
+  attackName: Splash
+  attackTile:
+  - {x: 0, y: 1}
+  - {x: 1, y: 0}
+  - {x: 1, y: 1}
+  - {x: 0, y: -1}
+  - {x: -1, y: 0}
+  - {x: -1, y: -1}
+  - {x: -1, y: 1}
+  - {x: 1, y: -1}
+  attackRange:
+  - {x: 0, y: 0}
+  attackDamage: 00000000
+  cost: 20
+  attackButton: {fileID: 9207515487956471455, guid: 80a43b8e663d97e40a7c5831c955fcc9, type: 3}
