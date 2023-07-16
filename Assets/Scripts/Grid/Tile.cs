@@ -10,6 +10,7 @@ public class Tile : MonoBehaviour
     bool isAttackable = false;
     AttackBase attackType;
     MovementBase moveType;
+    [SerializeField] Material highlightMat;
 
 
     public bool IsMovable
@@ -36,11 +37,17 @@ public class Tile : MonoBehaviour
 
     private void OnMouseEnter()
     {
+        if (isMovable ||isAttackable)
+        {
+            highlightMat.color = Color.green;
+        }
+        
         highlight.SetActive(true);
     }
 
     private void OnMouseExit()
     {
+        highlightMat.color = Color.white;
         highlight.SetActive(false);
     }
 

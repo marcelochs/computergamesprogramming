@@ -84,3 +84,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   highlight: {fileID: 5935928614767666723}
+  highlightMat: {fileID: 2100000, guid: 9fb23ad27ae9b3947a05969b339d65db, type: 2}
